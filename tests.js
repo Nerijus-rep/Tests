@@ -1,15 +1,15 @@
 QUnit.module("Testing");
 
-test("function longest_word", function() {
+test("longest_word", function() {
     equal(longest_word(["Hi", "Hello", "Medallion",
         "Splendiferous", "Pneumonoultramicroscopicsilicovolcanoconiosis"]), 45);
 });
 
-test("function sum", function() {
+test("sum", function() {
     equal(sum([1, 2, 3, 4]), 10);
 });
 
-test("function multiply", function() {
+test("multiply", function() {
     equal(multiply([1, 2, 3, 4]), 24);
 });
 
