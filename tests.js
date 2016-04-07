@@ -13,7 +13,7 @@ test("function multiply", function() {
     equal(multiply([1, 2, 3, 4]), 24);
 });
 
-QUnit.test("expression", function() {
+test("expression", function() {
     equal(expression(5, 2, '+'), 7);
     equal(expression(1, 2, '-'), -1);
     equal(expression(1, 2, '*'), 2);
