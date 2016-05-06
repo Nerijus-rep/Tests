@@ -1,7 +1,7 @@
-function duplicate(collection) {
-    
-    for (var i = 0; i < collection.length; i++) {
+function duplicate(array) {
+    var a = array;
+    for (var i = 0; i < array.length; i++) {
     };
-    
-    return collection.concat(collection);
+    var b = a.concat(array);
+    return b;
 };

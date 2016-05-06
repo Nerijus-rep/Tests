@@ -1,23 +1,15 @@
 function sum(array) {
-	
-	var length = array.length;
-	var total = 0;
-	
-	for (var i = 0; i < length; i++) {
-		total += array[i];
+	var sum = array[0];
+	for (var i = 1; i < array.length; i++) {	
+			sum +=array[i];		
 	};
-	
-	return total;
+	return sum;
 };
 
 function multiply(array) {
-	
-	var length = array.length;
-	var total = 1;
-	
-	for (var i = 0; i < length; i++) {
-		total *= array[i];
+	var sum = array[0];
+	for (var i = 1; i < array.length; i++) {	
+			sum *=array[i];		
 	};
-	
-	return total;
+	return sum;
 };

@@ -1,26 +1,26 @@
 QUnit.module("Testing");
 
-test("Find_longest_word", function() {
+test("function longest_word", function() {
     equal(longest_word(["Hi", "Hello", "Medallion",
         "Splendiferous", "Pneumonoultramicroscopicsilicovolcanoconiosis"]), 45);
 });
 
-test("sum", function() {
+test("function sum", function() {
     equal(sum([1, 2, 3, 4]), 10);
 });
 
-test("multiply", function() {
+test("function multiply", function() {
     equal(multiply([1, 2, 3, 4]), 24);
 });
 
-test("Expression function test with + - / *", function() {
+QUnit.test("expression", function() {
     equal(expression(5, 2, '+'), 7);
     equal(expression(1, 2, '-'), -1);
     equal(expression(1, 2, '*'), 2);
     equal(expression(1, 2, '/'), 0.5);
 });
 
-test("Duplicate_function", function() {
+test("duplicate", function() {
     deepEqual(duplicate([1, 2, 3, 4, 5]), [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]);
 });
 
