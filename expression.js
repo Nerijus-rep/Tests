@@ -1,5 +1,17 @@
 function expression(a, b, c) {
-    var x = a + c + b;
-    var c = '';
-    return eval(x);
+
+    if (c === "+")
+        return a + b;
+
+    else if (c === "-")
+        return a - b;
+
+    else if (c === "*")
+        return a * b;
+
+    else if (c === "/")
+        return a / b;
+
+    else if (c === "%")
+        return a % b;
 };
